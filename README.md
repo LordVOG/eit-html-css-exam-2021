@@ -1,2 +1,3 @@
-# eit-html-css-exam-2021
-This project is EIT exam on HTML and CSS in the year 2014
+# EIT-html-css-exam-2021
+Hi thanks for viewing,
+This repo is the solution to my examination question at Elerinmosa Institute of Technology during my studentship in 2021.
