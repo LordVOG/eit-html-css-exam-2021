@@ -1,0 +1,172 @@
+body {
+    margin: 20px 30px 0 30px;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.head span {
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.head  {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.head nav ul {
+    display: flex;
+    margin-right: 50px;
+}
+
+.head nav ul li {
+    margin-left: 30px;
+    margin-right: 30px;
+    list-style: none;
+}
+
+.head nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.head nav ul li a:hover {
+    background-color: tomato;
+    color: #fff;
+    padding: 10px 20px ;
+    transition: 0.5s;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.firstsection span {
+    display: inline-block;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: white;
+}
+
+.firstsection span b {
+    background-color: black;
+    padding: 10px;
+}
+
+
+.items {
+    align-content: center;
+}
+
+.itemcontainer {
+    grid-template-columns: auto auto;
+    display: flex;
+    column-gap: 1rem;
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+.itemcontainer img {
+    width: 500px;
+}
+
+.itemcontainer span {
+    display: flex;
+    background-color: black;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.aboutus {
+    margin: 3rem 1rem 0 3rem;
+}
+
+.aboutus span {
+    font-size: 30px;
+}
+
+.aboutus p {
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.teamcontainer {
+    display: flex;
+    margin-top: 5rem;
+    column-gap: 2rem;
+    justify-content: center;
+}
+
+.teammen span {
+    color: grey;
+}
+
+.teammen p {
+    width: 90%;
+}
+
+.teammen button {
+    padding: 0.6rem 14rem 0.6rem 14rem;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.teammen button a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.powered {
+    margin: 5rem 10% 2% 10%;
+    text-align: center;
+}
+
+.powered img {
+    width: 100%;
+}
+
+.footertext {
+    background-color: black;
+    color:  white;
+    text-align: center;
+    padding: 1rem 40% 1rem 40%;
+}
+
+.contactform {
+    margin-top: 10rem;
+    margin-left: 2rem;
+    margin-bottom: 10rem;
+    width: 70%;
+    float: left;
+}
+
+
+.contactform input {
+    padding: 0.5rem 40% 0.5rem 40%;
+}
+
+.contactform button {
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.contactform button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footerhr {
+    border: 2px solid black;
+}
